@@ -1,0 +1,8 @@
+.places__place {
+  display: grid;
+  width: 100%;
+  row-gap: 40px;
+  column-gap: 48px;
+  grid-template-columns: repeat(2, minmax(300px, max-content));
+  justify-content: center;
+}
