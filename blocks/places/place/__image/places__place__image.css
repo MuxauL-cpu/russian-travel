@@ -15,9 +15,14 @@
   }
 }
 
+@media screen and (max-width: 660px) {
+  .places__place__image {
+    margin-bottom: 32px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places__place__image {
     min-height: 320px;
-    margin-bottom: 32px;
   }
 }
