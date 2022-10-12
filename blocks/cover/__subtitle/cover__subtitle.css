@@ -8,3 +8,21 @@
   max-width: 360px;
   text-align: center;
 }
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    padding-top: 4vw;
+    font-size: 2.5vw;
+    line-height: 2.8vw;
+    max-width: 270px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    padding-top: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 270px;
+  }
+}

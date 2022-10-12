@@ -3,4 +3,11 @@
   row-gap: 12px;
   align-self: end;
   justify-self: start;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 320px) {
+  .places__place__website {
+    margin-bottom: 32px;
+  }
 }
