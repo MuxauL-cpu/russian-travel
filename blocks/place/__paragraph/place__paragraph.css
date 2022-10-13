@@ -1,4 +1,4 @@
-.places__place__paragraph {
+.place__paragraph {
   margin: 0;
   margin-bottom: 26px;
   font-weight: 400;
@@ -7,25 +7,25 @@
   width: 100%;
 }
 
-.places__place__paragraph:nth-child(2n) {
+.place__paragraph:nth-child(2n) {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 660px) {
-  .places__place__paragraph {
+  .place__paragraph {
     width: 90%;
   }
 }
 
 @media screen and (max-width: 660px) {
-  .places__place__paragraph {
+  .place__paragraph {
     padding-left: 16px;
     padding-right: 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .places__place__paragraph {
+  .place__paragraph {
     font-size: 16px;
     line-height: 163%;
   }

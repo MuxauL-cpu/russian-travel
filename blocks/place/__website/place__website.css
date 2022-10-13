@@ -1,4 +1,4 @@
-.places__place__website {
+.place__website {
   display: grid;
   row-gap: 12px;
   align-self: end;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .places__place__website {
+  .place__website {
     margin-bottom: 32px;
   }
 }

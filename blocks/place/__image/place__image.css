@@ -1,28 +1,28 @@
-.places__place__image {
+.place__image {
   width: 100%;
   object-fit: cover;
 }
 
 @media screen and (max-width: 1024px) {
-  .places__place__image {
+  .place__image {
     min-height: 440px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .places__place__image {
+  .place__image {
     min-height: 340px;
   }
 }
 
 @media screen and (max-width: 660px) {
-  .places__place__image {
+  .place__image {
     margin-bottom: 32px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .places__place__image {
+  .place__image {
     min-height: 320px;
   }
 }
