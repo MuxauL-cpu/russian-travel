@@ -6,13 +6,6 @@
   color: #FFFFFF;
 }
 
-.places__place__website__link:hover {
-  opacity: 0.8;
-  transition-property: opacity;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in;
-}
-
 @media screen and (max-width: 660px) {
   .places__place__website__link {
     padding-left: 16px;
