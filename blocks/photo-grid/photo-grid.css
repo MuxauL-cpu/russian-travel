@@ -7,7 +7,7 @@
   padding-right: 48px;
 }
 
-@media screen and (max-width: 1024x) {
+@media screen and (max-width: 1024px) {
   .photo-grid {
     gap: 14px;
   }
