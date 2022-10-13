@@ -6,6 +6,13 @@
   text-decoration: none;
 }
 
+.footer__link:hover {
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+
 @media screen and (max-width: 720px) {
   .footer__link {
     font-size: 24px;
