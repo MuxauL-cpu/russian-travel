@@ -9,12 +9,11 @@
   text-align: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .cover__subtitle {
-    padding-top: 4vw;
-    font-size: 2.5vw;
-    line-height: 2.8vw;
-    max-width: 270px;
+    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320)));
+    line-height: calc(16px + (22 - 16) * ((100vw - 320px) / (768 - 320)));
+    max-width: calc(288px + (360 - 288) * ((100vw - 320px) / (768 - 320)));
   }
 }
 
@@ -23,6 +22,6 @@
     padding-top: 16px;
     font-size: 14px;
     line-height: 16px;
-    max-width: 270px;
+    max-width: 288px;
   }
 }
