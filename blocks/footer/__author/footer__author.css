@@ -4,12 +4,12 @@
   font-size: 14px;
   line-height: 16px;
   text-align: right;
-  align-self: center;
+  align-self: flex-end;
 }
 
 @media screen and (max-width: 720px) {
   .footer__author {
-    align-self: start;
+    align-self: flex-start;
     line-height: 14px;
   }
 }
